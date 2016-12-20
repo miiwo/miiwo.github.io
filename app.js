@@ -1,23 +1,44 @@
 var main = function () {
     $('.buttonpush').click(function () {
         $('.containrect').animate({
-            width: "toggle"
+            width: "show"
         }, 500);
+            
+        $('.maincontent').animate({
+            left: "+53%",
+            width: "47%"
+        }, 800, "swing");
+        $('.maincontent').addClass("moved");
         
+        $('#base_nav').hide();
+        $('#project_nav').show();
         
-        if ($(".maincontent").hasClass("moved")) {
+        $('.maincontent').promise().done(function () {
+            $('#Project').siblings().hide();
+            $('#Project').toggle('slow');
+        });
+        
+    });
+    
+    $('.aboutbutton').click(function () {
+        $('#About').toggle('slow');
+        
+        if ($('.maincontent').hasClass('moved')) {
+            $('.containrect').animate({
+                width: "hide"
+            }, 500);
+            
             $(".maincontent").removeClass("moved");
             $(".maincontent").animate({
-                left: "-=300px",
+                left: "0%",
+                width: "100%",
                 opacity: "1"
             }, 800);
-        } else {
-            $('.maincontent').animate({
-                left: "+=300px",
-                opacity: "0.7"
-            }, 800, "swing");
-            $(".maincontent").addClass("moved");
+            
         }
+        $('.maincontent').promise().done(function () {
+            $('#About').siblings().hide();
+        });
     });
     
     
