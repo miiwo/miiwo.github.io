@@ -1,22 +1,18 @@
 var main = function () {
     $('.buttonpush').click(function () {
+        $('#Project').siblings().hide();
+        
         $('.containrect').animate({
             width: "show"
         }, 500);
-            
+        
         $('.maincontent').animate({
             left: "+53%",
             width: "47%"
-        }, 800, "swing");
-        $('.maincontent').addClass("moved");
-        
-        $('#base_nav').hide();
-        $('#project_nav').show();
-        
-        $('.maincontent').promise().done(function () {
-            $('#Project').siblings().hide();
+        }, 800, "swing", function () {
             $('#Project').toggle('slow');
         });
+        $('.maincontent').addClass("moved");
         
     });
     
