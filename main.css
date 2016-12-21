@@ -102,7 +102,7 @@ ul {
 }
 li {
     display: inline-block;
-    width: 33%;
+    width: 33.3%;
     float: left;
 }
 li a {
@@ -122,17 +122,20 @@ li a:hover {
 .dropdown-content {
     position: absolute;
     display: none;
-    width: 100%;
+    width: 18%; /*turn to 100% for full width*/
+    right: 0;
     background-color: black;
     z-index: 1;
     
 }
 .dropdown-content a {
+    display: block;
     color: white;
     padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+    
     text-align: left;
+    text-decoration: none;
+
 }
 
 .dropdown:hover .dropdown-content {
@@ -166,25 +169,6 @@ img:hover {
 
 .img-circle {
     border-radius: 50%;
-}
-.jellyfish {
-    left: 76%;
-    top: 5%;
-    
-    opacity: 0.9;
-    position: fixed;
-
-    width: 400px;
-    height: 400px;
-    
-    border-radius: 200px;
-    -webkit-border-radius: 200px;
-    -moz-border-radius: 200px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-    
-    background: url(http://images.all-free-download.com/images/graphiclarge/multicolored_jellyfish_168996.jpg);
-    
 }
 /*---------------PARALLAX SCROLLING------------------*/
 .parallax {
