@@ -17,7 +17,7 @@ var main = function () {
     });
     
     $('.aboutbutton').click(function () {
-        $('#About').toggle('slow');
+        $('#About').siblings().hide();
         
         if ($('.maincontent').hasClass('moved')) {
             $('.containrect').animate({
@@ -33,7 +33,7 @@ var main = function () {
             
         }
         $('.maincontent').promise().done(function () {
-            $('#About').siblings().hide();
+            $('#About').toggle('slow');
         });
     });
     
