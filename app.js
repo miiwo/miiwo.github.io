@@ -1,25 +1,9 @@
 var main = function () {
-    $('.buttonpush').click(function () {
-        $('#Project').siblings().hide();
-        
-        $('.maincontent').animate({
-            left: "+53%",
-            width: "47%"
-        }, 800, "swing", function () {
-            $('.containrect').animate({
-                height:'toggle'
-            }, 500);
-            $('#Project').toggle('slow');
-        });
-        $('.maincontent').addClass("moved");
-        
-    });
-    
     $('.aboutbutton').click(function () {
         $('#About').siblings().hide();
         
         if ($('.maincontent').hasClass('moved')) {
-            $('.containrect').animate({
+            $('.picturecontainer').animate({
                 width: "hide"
             }, 500);
             
@@ -47,7 +31,7 @@ var main = function () {
                 left: "+53%",
                 width: "47%"
             }, 800, "swing", function () {
-                $('.containrect').animate({
+                $('.picturecontainer').animate({
                     height: 'toggle'
                 }, 500);
                 $('#' + name).toggle('slow');
