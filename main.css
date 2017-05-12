@@ -1,7 +1,5 @@
 html {
-    /*background: #e6e9e9;*/
     background: #B8D5D3;
-    /*background: -webkit-linear-gradient( #B8D5D3 , #275B58);*/
     -webkit-font-smoothing: antialiased;
 }
 /*reset*/
@@ -27,16 +25,18 @@ body {
     min-height: 100%;
     height: 100%;
     width: 100%;
+    top: 22%;
+    z-index: -1;
     
 }
 
 .picturecontainer {
     background: #3A4446;
-    position: fixed;
+    position: relative;
     display: none;
-    margin: 0 auto;
     
-    width: 700px;
+    
+    width: 48%; /*1440 x 900*/
     height: 600px;
     
     left: 0px;
@@ -44,6 +44,20 @@ body {
     color: white;
     text-align: center;
 }
+
+.viewport {
+    overflow: auto;
+    max-height: 100%;
+    
+    margin-right: -200px;
+    padding-right: 200px;
+    position: relative;
+}
+
+.viewport p {
+    margin-left: 2%;
+}
+
 /*----------------words appear here-----------------*/
 h1 {
     text-align: center;
@@ -75,7 +89,6 @@ ul {
     
     background-color: #555;
     overflow: hidden;
-    
     
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 150%;
@@ -205,10 +218,3 @@ img:hover {
     overflow: hidden;
 }
 
-.viewport {
-    overflow: auto;
-    max-height: 100%;
-    
-    margin-right: -200px;
-    padding-right: 200px;
-}
