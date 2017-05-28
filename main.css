@@ -26,7 +26,6 @@ body {
     height: 100%;
     width: 100%;
     top: 22%;
-    z-index: -1;
     
 }
 
@@ -93,6 +92,7 @@ c1 {
     
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 150%;
+    z-index: 1;
     
 }
 #base_nav ul li {
