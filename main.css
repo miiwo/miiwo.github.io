@@ -49,6 +49,7 @@ body {
     overflow: auto;
     max-height: 100%;
     
+    margin-left: 2%;
     margin-right: -200px;
     padding-right: 200px;
     position: relative;
@@ -82,7 +83,7 @@ c1 {
     color: white;
 }
 /*----------------navigation bar--------------------*/
-ul {
+#base_nav ul {
     list-style-type: none;
     margin 0;
     padding 0;
@@ -94,19 +95,19 @@ ul {
     font-size: 150%;
     
 }
-li {
+#base_nav ul li {
     display: inline-block;
     width: 33.3%;
     float: left;
 }
-li a {
+#base_nav ul li a {
     display: block;
     text-align: center;
     line-height: 2em;
     color: white;
     text-decoration: none;
 }
-li a:hover, .dropdown:hover .projectbutton{
+#base_nav ul li a:hover, .dropdown:hover .projectbutton{
     background-color: white;
     -webkit-transition: background-color 0.5s;
     color: #555;
@@ -142,6 +143,9 @@ li.dropdown {
     display: inline-block;
 }
 
+ul li{
+    list-style-type: circle;
+}
 /*----------------blurred images--------------------*/
 img {
     opacity: 0.5;
