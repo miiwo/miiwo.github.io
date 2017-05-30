@@ -25,7 +25,7 @@ body {
     min-height: 100%;
     height: 100%;
     width: 100%;
-    top: 22%;
+    z-index: -1;
     
 }
 
@@ -42,13 +42,14 @@ body {
     
     color: white;
     text-align: center;
+    float: left;
 }
 
 .viewport {
     overflow: auto;
     max-height: 100%;
     
-    margin-left: 2%;
+    /*margin-left: 2%;*/
     margin-right: -200px;
     padding-right: 200px;
     position: relative;
@@ -73,7 +74,6 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 1%;
     color: #4A4444;
-    /*color: lightsteelblue;*/
     opacity: 0.5;
     border-bottom: 2px dotted;
 }
@@ -83,6 +83,7 @@ c1 {
 }
 /*----------------navigation bar--------------------*/
 #base_nav ul {
+    display: block;
     list-style-type: none;
     margin 0;
     padding 0;
@@ -92,7 +93,7 @@ c1 {
     
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 150%;
-    z-index: 1;
+    z-index: 2;
     
 }
 #base_nav ul li {
@@ -118,9 +119,9 @@ c1 {
 .dropdown-content {
     position: absolute;
     display: none;
-    width: 18%; /*turn to 100% for full width*/
+    width: 18%;
     right: 0;
-    background-color: black;
+    background-color: #383838;
     z-index: 1;
     
 }
@@ -136,7 +137,7 @@ c1 {
 .dropdown:hover .dropdown-content {
     display: block;
     
-    -webkit-transition: height 3s ease-in; /*Fix this*/
+    -webkit-transition: height 3s ease-in; /*Want this to cascade down*/
 }
 
 li.dropdown {

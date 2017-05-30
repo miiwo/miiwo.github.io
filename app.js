@@ -38,6 +38,7 @@ var main = function () {
             });
             
             $('.maincontent').addClass("moved");
+            $('.maincontent').css("overflow-y", "scroll");
         } else {
             $('#' + name).toggle('slow');
         }
