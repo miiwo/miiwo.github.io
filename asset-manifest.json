@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b21be10.chunk.css",
-    "main.js": "/static/js/main.305eb3fa.chunk.js",
-    "main.js.map": "/static/js/main.305eb3fa.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f3a02c50.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f3a02c50.js.map",
-    "static/js/2.4232b7a8.chunk.js": "/static/js/2.4232b7a8.chunk.js",
-    "static/js/2.4232b7a8.chunk.js.map": "/static/js/2.4232b7a8.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.f57e55bbce17aef2665eb77c230b45e0.js": "/precache-manifest.f57e55bbce17aef2665eb77c230b45e0.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.4b21be10.chunk.css.map": "/static/css/main.4b21be10.chunk.css.map",
-    "static/js/2.4232b7a8.chunk.js.LICENSE.txt": "/static/js/2.4232b7a8.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
-    "static/media/profilepic.jpg": "/static/media/profilepic.f5dfb73e.jpg",
-    "static/media/waves.css": "/static/media/wave.ee93708c.svg"
+    "main.css": "/jellyfishe.github.io/static/css/main.c2de3abe.chunk.css",
+    "main.js": "/jellyfishe.github.io/static/js/main.5bef1376.chunk.js",
+    "main.js.map": "/jellyfishe.github.io/static/js/main.5bef1376.chunk.js.map",
+    "runtime-main.js": "/jellyfishe.github.io/static/js/runtime-main.fc0df6f9.js",
+    "runtime-main.js.map": "/jellyfishe.github.io/static/js/runtime-main.fc0df6f9.js.map",
+    "static/js/2.4232b7a8.chunk.js": "/jellyfishe.github.io/static/js/2.4232b7a8.chunk.js",
+    "static/js/2.4232b7a8.chunk.js.map": "/jellyfishe.github.io/static/js/2.4232b7a8.chunk.js.map",
+    "index.html": "/jellyfishe.github.io/index.html",
+    "precache-manifest.8f1ded83d3b11c032940688cf85afda4.js": "/jellyfishe.github.io/precache-manifest.8f1ded83d3b11c032940688cf85afda4.js",
+    "service-worker.js": "/jellyfishe.github.io/service-worker.js",
+    "static/css/main.c2de3abe.chunk.css.map": "/jellyfishe.github.io/static/css/main.c2de3abe.chunk.css.map",
+    "static/js/2.4232b7a8.chunk.js.LICENSE.txt": "/jellyfishe.github.io/static/js/2.4232b7a8.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/jellyfishe.github.io/static/media/logo.5d5d9eef.svg",
+    "static/media/profilepic.jpg": "/jellyfishe.github.io/static/media/profilepic.f5dfb73e.jpg",
+    "static/media/waves.css": "/jellyfishe.github.io/static/media/wave.ee93708c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f3a02c50.js",
+    "static/js/runtime-main.fc0df6f9.js",
     "static/js/2.4232b7a8.chunk.js",
-    "static/css/main.4b21be10.chunk.css",
-    "static/js/main.305eb3fa.chunk.js"
+    "static/css/main.c2de3abe.chunk.css",
+    "static/js/main.5bef1376.chunk.js"
   ]
 }
