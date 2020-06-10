@@ -1,0 +1,18 @@
+.searchbar {
+    width: 80%;
+    font-size: 3em;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid rgba(162, 204, 182, 0, 0.25);
+    outline: none;
+    text-align: center;
+}
+
+.search-suggestions {
+    display: inline-block;
+    margin: 20px 100px;
+}
+
+#search-form {
+    text-align: center;
+}
