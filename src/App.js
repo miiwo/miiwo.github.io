@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import profilepic from './profilepic.jpg'
 import './App.css';
-import { HashRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Sidebar from './components/sidebar';
 import Projects from './components/projects';
 import About from './components/about';
@@ -29,7 +29,9 @@ function App() {
 	    
 	    <div className="App">
 		<Sidebar logo={userinfo.pic} name={userinfo.name} position={userinfo.position} sideItems={sidebarComponents} />
-		<div style={{marginLeft: '30%', height: "100vh"}}><PageRoute items={sidebarComponents} /></div>
+		<Switch>
+		    <div style={{marginLeft: '30%', height: "100vh"}}><PageRoute items={sidebarComponents} /></div>
+		</Switch>
 	    </div>
 	</Router>
       
