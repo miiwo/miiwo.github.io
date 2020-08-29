@@ -18,7 +18,7 @@ function SidebarCard(props) {
     return (
 	<div className="sidebar-card">
 	    <div id="squareimg"><img className="sidebar-pic" src={props.profile} alt="logo" /></div>
-	    <h1>{props.name}</h1>
+	    <h1 id="sidetitle">{props.name}</h1>
 	    <span className="position">{props.position}</span>
 	</div>	
     );

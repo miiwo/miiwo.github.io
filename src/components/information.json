@@ -1,18 +1,18 @@
 {	
-    "about": "Hi there, my name is Michelle Wong and this is my website! I am a fresh graduate from the University of Toronto with my degree being in Computer Science and Mathematics. During my time at UofT, I've had the opportunity to be a TA for second year theory courses (CSC236) and more practical ones (CSC209, CSC384). My hobbies include mahjong, rhythm games, and dancing. You can contact me at: chellewsa@gmail.com",
+    "about": "Hi there, my name is Michelle Wong and this is my website! I am a fresh graduate from the University of Toronto with degrees in Computer Science and Mathematics. During my time at UofT, I've had the opportunity to be a TA for second year theory courses (CSC236) and more practical ones (CSC209, CSC384). My hobbies include mahjong, rhythm games, and dancing. You can contact me at: chellewsa@gmail.com.",
     "discordbot": "This is my discord bot",
     "project_list": [
 	{
 	    "name": "React Website",
 	    "dev_cycle": "2017-2019",
 	    "link": "https:///github.com/jellyfishe/jellyfishe.github.io",
-	    "desc": "I made this website in React! It was something I wanted to try doing for a while ever since my first website I created years ago using purely HTML and CSS."
+	    "desc": "I made this website in React! This has been something I wanted to try doing for a while; ever since I created my first website years ago using purely HTML and CSS."
 	},
 	{
 	    "name": "Discord Bot",
 	    "dev_cycle": "2018-2020",
 	    "link": "https://github.com/jellyfishe/UOFTDiscordBot",
-	    "desc": "I made this bot for my academic society. It was used to help out with courses and shuttle bus routes."
+	    "desc": "I made this bot for my school. It was used to help out with courses and shuttle bus routes."
 	},
 	{
 	    "name": "Filename Scrambler",
@@ -24,7 +24,7 @@
 	    "name": "DDR Recorder",
 	    "dev_cycle": "2020",
 	    "link": "https://github.com/jellyfishe/DDRSnap",
-	    "desc": "I made this sideproject for my passion at DDR. I always wanted a way to collect my scores in an easy format. The idea to add ML to it so that photos can help with info taking was a problem I experienced at the end of any of my sessions. I would be so tired afterwards haha"
+	    "desc": "I made this sideproject for my passion at DDR. I always wanted a way to collect my scores in an easy format. I plan to add number recognition to it so that people can take photos and it will automatically score a song you just played. This would be a convenience for those too tired to input their scores after a long session."
 	}
     ],
     "bookmark_one": {
