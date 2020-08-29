@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
-import profilepic from './profilepic.jpg'
+import profilepic from './profilepic.jpg';
 import './App.css';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import { Helmet } from "react-helmet";
@@ -9,6 +8,7 @@ import Sidebar from './components/sidebar';
 import Projects from './components/projects';
 import About from './components/about';
 import StartPage from './components/startpage';
+import Home from './components/home';
 
 function App() {
     const userinfo = {
@@ -18,6 +18,7 @@ function App() {
     };
 
     const sidebarComponents = {
+	"HOME": Home,
 	"ABOUT": About,
 	"PROJECTS": Projects,
 	"STARTPAGE": StartPage
@@ -36,6 +37,8 @@ function App() {
 	    <div className="App">
 		<Sidebar logo={userinfo.pic} name={userinfo.name} position={userinfo.position} sideItems={sidebarComponents} />
 		<Switch>
+		    
+		    
 		    <div style={{marginLeft: '30%', height: "100vh"}}><PageRoute items={sidebarComponents} /></div>
 		</Switch>
 	    </div>
