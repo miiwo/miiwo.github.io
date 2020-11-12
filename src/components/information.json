@@ -1,10 +1,10 @@
 {	
-    "about": "Hi there, my name is Michelle Wong and this is my website! I am a fresh graduate from the University of Toronto with degrees in Computer Science and Mathematics. During my time at UofT, I've had the opportunity to be a TA for second year theory courses (CSC236) and more practical ones (CSC209, CSC384). My hobbies include mahjong, rhythm games, and dancing. You can contact me at: chellewsa@gmail.com.",
+    "about": "Hi there, my name is Michelle Wong and this is my website! I am a fresh graduate from the University of Toronto with a double degree in Computer Science and Mathematics. During my time at UofT, I've had the opportunity to be a TA for second year theory courses (CSC236) and more practical ones (CSC209, CSC384). My hobbies include mahjong, rhythm games, and dancing. You can contact me at: chellewsa@gmail.com.",
     "discordbot": "This is my discord bot",
     "project_list": [
 	{
 	    "name": "React Website",
-	    "dev_cycle": "2017-2019",
+	    "dev_cycle": "2017-2020",
 	    "link": "https:///github.com/jellyfishe/jellyfishe.github.io",
 	    "desc": "I made this website in React! This has been something I wanted to try doing for a while; ever since I created my first website years ago using purely HTML and CSS."
 	},
@@ -22,17 +22,25 @@
 	},
 	{
 	    "name": "DDR Scores Tracker",
-	    "dev_cycle": "2020",
+	    "dev_cycle": "2019-2020",
 	    "link": "https://github.com/jellyfishe/DDRSnapshot",
 	    "desc": "I made this sideproject for my hobby of playing DDR. I've been meaning to have a portable way of keeping track of my scores, and the sentiment goes to a bunch of others who play it. There are a couple of apps for this out already but I also wanted to have an AI function to it since the break time between songs is very short, putting in the info seems cumbersome when I fat finger the numbers. Written with a Xamarin framework, it uses AWS to analyze photos and Realm as its database."
-	
+	},
+	{
+ 	    "name": "Web App",
+	    "dev_cycle": "TBD",
+	    "link": "https://www.google.ca",
+	    "desc": "A side project I want to make in the future that lets me play around with the different web frameworks out there."
+	}
     ],
     "bookmark_one": {
 	"Github": "www.github.ca",
 	"HackerRank": "hackerrank.com"
     },
     "bookmark_two": {
-	"Twitter": "www.twitter.com"
+	"Twitter": "www.twitter.com",
+	"Netflix": "www.netflix.com",
+	"Twitch": "www.twitch.com"
     },
     "bookmark_three": {
 	"r/unixporn": "www.reddit.com/r/unixporn",
