@@ -1,5 +1,5 @@
 import React from 'react'
-import * as info from './information.json'
+import * as info from '../information.json'
 import './projects.css'
 
 function ProjectHeader(props) {

@@ -1,8 +1,8 @@
-import Clock from './clock.js'
-import Bookmark from './bookmarks.js'
-import SearchBar from './searchbar.js'
-import Waves from './waves.js'
-import * as info from './information.json'
+import Clock from '../clock.js'
+import Bookmark from '../bookmarks.js'
+import SearchBar from '../searchbar.js'
+import Waves from '../waves.js'
+import * as info from '../information.json'
 import React from 'react'
 import './startpage.css'
 

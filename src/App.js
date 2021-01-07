@@ -1,7 +1,7 @@
 import React from 'react';
 import profilepic from './profilepic.jpg';
 import './App.css';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 
 import Sidebar from './components/sidebar';
@@ -28,18 +28,20 @@ function App() {
 	<Router basename={process.env.PUBLIC_URL}>
 	    <Helmet>
                 <meta charSet="utf-8" />
-                <title>Michelle's Site</title>
-            </Helmet>
-	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+                <title>Michelle Wong</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 		  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
 		  crossorigin="anonymous" />
+            </Helmet>
+	    
 	    
 	    <div className="App">
-		<Sidebar logo={userinfo.pic} name={userinfo.name} position={userinfo.position} sideItems={sidebarComponents} />
+		<Sidebar logo={userinfo.pic} title={userinfo.name} subtitle={userinfo.position} sideItems={sidebarComponents} />
 		<Switch>
-		    
-		    
-		    <div style={{marginLeft: '30%', height: "100vh"}}><PageRoute items={sidebarComponents} /></div>
+		    <div style={{float: 'right', marginLeft: '30%', height: "100vh"}}>
+			<PageRoute items={sidebarComponents} />
+			<Redirect exact from="/" to='/HOME' />
+		    </div>
 		</Switch>
 	    </div>
 	</Router>
