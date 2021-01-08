@@ -4,7 +4,7 @@
     "project_list": [
 	{
 	    "name": "React Website",
-	    "dev_cycle": "2017-2019",
+	    "dev_cycle": "2017-2020",
 	    "link": "https:///github.com/jellyfishe/jellyfishe.github.io",
 	    "desc": "I made this website in React! This has been something I wanted to try doing for a while; ever since I created my first website years ago using purely HTML and CSS."
 	},
@@ -21,10 +21,16 @@
 	    "desc": "Small little bash script I wrote to help manage my background images."
 	},
 	{
-	    "name": "DDR Recorder",
-	    "dev_cycle": "2020",
-	    "link": "https://github.com/jellyfishe/DDRSnap",
-	    "desc": "I made this sideproject for my passion at DDR. I always wanted a way to collect my scores in an easy format. I plan to add number recognition to it so that people can take photos and it will automatically score a song you just played. This would be a convenience for those too tired to input their scores after a long session."
+	    "name": "DDR Scores Tracker",
+	    "dev_cycle": "2019-2020",
+	    "link": "https://github.com/jellyfishe/DDRSnapshot",
+	    "desc": "I made this sideproject for my hobby of playing DDR. I've been meaning to have a portable way of keeping track of my scores, and the sentiment goes to a bunch of others who play it. There are a couple of apps for this out already but I also wanted to have an AI function to it since the break time between songs is very short, putting in the info seems cumbersome when I fat finger the numbers. Written with a Xamarin framework, it uses AWS to analyze photos and Realm as its database."
+	},
+	{
+ 	    "name": "Web App",
+	    "dev_cycle": "TBD",
+	    "link": "https://www.google.ca",
+	    "desc": "A side project I want to make in the future that lets me play around with the different web frameworks out there."
 	}
     ],
     "bookmark_one": {
@@ -36,7 +42,8 @@
 	"RedFlagDeals": "www.redflagdeals.ca"
     },
     "bookmark_three": {
-	"r/unixporn": "www.reddit.com/r/unixporn"
+	"r/unixporn": "www.reddit.com/r/unixporn",
+	"r/keyboards": "www.reddit.com/r/keyboards"
     }
     
 }
