@@ -1,10 +1,12 @@
 import React from 'react'
-import homepic from '../cutepenguins.jpg';
+import homepic from '../res/cutepenguins.jpg';
+import '../stylesheets/home.css'
+
 
 function Home(props) {
     return (
-	<div style={{position: 'absolute', top: '20%', left: '50%' }}>
-	    <img style={{ width:'300px' }}src={homepic} />
+	<div className="home">
+	    <img className="penguin" src={homepic} alt="logo" />
 	    <p>Please click the buttons on the left to navigate my page!~</p>
 	</div>
     )

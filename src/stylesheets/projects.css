@@ -1,0 +1,13 @@
+.entry {
+    text-align: left;
+}
+
+.projects {
+    padding-left: 3%;
+    white-space: pre-wrap;
+    padding-right: 10%;
+}
+
+.projHeader {
+    text-align: left;
+}

@@ -1,0 +1,11 @@
+.startpage {
+    width: 71vw;
+    height: 100vh;
+    /*background: #1A1E23;*/
+}
+
+.startpage-table {
+    display: table;
+    margin: 0 auto;
+    table-layout: fixed;
+}

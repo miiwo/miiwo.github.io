@@ -1,9 +1,9 @@
-.searchbar {
+#searchbar {
     width: 80%;
     font-size: 3em;
     background-color: transparent;
     border: none;
-    border-bottom: 3px solid rgba(162, 204, 182, 0, 0.25);
+    border-bottom: 1px solid black;
     outline: none;
     text-align: center;
 }

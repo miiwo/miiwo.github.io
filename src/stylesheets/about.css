@@ -1,0 +1,15 @@
+.about {
+    padding-left: 3%;
+    white-space: pre-wrap;
+}
+
+.about h1 {
+    text-align: left;
+}
+
+.aboutPara {
+    padding-right: 3em;
+    text-align: left;
+}
+
+.aboutHeader {}

@@ -6,7 +6,7 @@
     letter-spacing: .05em;
 }
 
-.center_clock {
+#center_clock {
     width: 100%;
     text-align: center;
 }

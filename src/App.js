@@ -1,14 +1,14 @@
 import React from 'react';
-import profilepic from './profilepic.jpg';
+import profilepic from './res/profilepic.jpg';
 import './App.css';
 import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 
 import Sidebar from './components/sidebar';
-import Projects from './components/projects';
-import About from './components/about';
-import StartPage from './components/startpage';
-import Home from './components/home';
+import Projects from './pages/projects';
+import About from './pages/about';
+import StartPage from './pages/startpage';
+import Home from './pages/home';
 
 function App() {
     const userinfo = {
@@ -27,18 +27,18 @@ function App() {
     return (
 	<Router basename={process.env.PUBLIC_URL}>
 	    <Helmet>
-                <meta charSet="utf-8" />
-                <title>Michelle Wong</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-		  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-		  crossorigin="anonymous" />
-            </Helmet>
+            <meta charSet="utf-8" />
+            <title>Michelle Wong</title>
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+				integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+				crossorigin="anonymous" />
+        </Helmet>
 	    
 	    
 	    <div className="App">
 		<Sidebar logo={userinfo.pic} title={userinfo.name} subtitle={userinfo.position} sideItems={sidebarComponents} />
 		<Switch>
-		    <div style={{float: 'right', marginLeft: '30%', height: "100vh"}}>
+		    <div className="main-content">
 			<PageRoute items={sidebarComponents} />
 			<Redirect exact from="/" to='/HOME' />
 		    </div>
