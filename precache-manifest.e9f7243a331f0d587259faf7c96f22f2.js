@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a71e4d6e2c4cf6f8c656fd6ac401d159",
+    "revision": "3120ea1f4edd32dcc434681f3449793b",
     "url": "/index.html"
   },
   {
-    "revision": "2eb7686f36fdaf92ddd4",
+    "revision": "da837e33f12a9509aa33",
     "url": "/static/css/main.2f08dae5.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.ed6360eb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2eb7686f36fdaf92ddd4",
-    "url": "/static/js/main.7357be68.chunk.js"
+    "revision": "da837e33f12a9509aa33",
+    "url": "/static/js/main.a53e0521.chunk.js"
   },
   {
     "revision": "73635f645c271e35ff15",
     "url": "/static/js/runtime-main.83c3e0c4.js"
   },
   {
-    "revision": "ec62c1824d7e80f4be571c5c189a56bb",
-    "url": "/static/media/cutepenguins.ec62c182.jpg"
+    "revision": "47f637c82c44b258ea0f96509f16a28a",
+    "url": "/static/media/cutepenguins.47f637c8.png"
   },
   {
     "revision": "b5c48fbf69dc4b32b3dc7fa1efd4042f",
