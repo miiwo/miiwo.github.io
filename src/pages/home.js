@@ -1,5 +1,5 @@
 import React from 'react'
-import homepic from '../res/cutepenguins.jpg';
+import homepic from '../res/cutepenguins.png';
 import '../stylesheets/home.css'
 
 
