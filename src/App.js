@@ -41,10 +41,11 @@ function App() {
 			{/*<Sidebar logo={userinfo.pic} title={userinfo.name} subtitle={userinfo.position} sideItems={sidebarComponents} /> */}
 			<div className="main-content">
 				<Routes>
-				<Route path="/home" element={<Home />} />
+					<Route path="/home" element={<Home />} />
 					<Route path="/about" element={<About />} />
 					<Route path="/projects" element={<Projects />} />
 					<Route path="/startpage" element={<StartPage />} />
+					<Route path="/" element={<Home />} />
 				</Routes>
 			</div>
 	    </div>
