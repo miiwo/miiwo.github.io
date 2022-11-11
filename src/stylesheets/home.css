@@ -1,16 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
 .home {
     position: absolute;
-    top: 20%;
-    left: 50%;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+    background: #0c192c;
+    z-index: -1;
 }
 
-.penguin {
-    width: 300px;
+.home-jumbobox {
+    position: absolute;
+    padding-top: 40vh;
+    padding-left: 10vw;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+
+.home-jumbobox p {
+    padding-top: 10px;
+}
+
+.socials {
+    font-size: 2rem;
+}
+
+.socials a {
+    padding: 2rem 1rem 2rem 0px;
+    color: rgb(214, 171, 115);
+    transition: 0.4s;
+}
+
+.socials a:hover {
+    color: rgb(240, 155, 27);
 }
 
 .container {
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     overflow: hidden;
     background: #0c192c;
@@ -18,6 +46,7 @@
 .bubbles {
     position: relative;
     display: flex;
+    padding-left: 70vw;
 }
 .bubbles span {
     position: relative;

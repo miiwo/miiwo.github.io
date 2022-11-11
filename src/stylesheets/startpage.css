@@ -1,7 +1,16 @@
 .startpage {
-    width: 71vw;
+    width: 100vw;
     height: 100vh;
+    padding-top: 15vh;
     /*background: #1A1E23;*/
+    color: white;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+    background: #0c192c;
+    z-index: -1;
 }
 
 .startpage-table {

@@ -1,15 +1,23 @@
 .about {
-    padding-left: 3%;
+    padding-top: 30vh;
     white-space: pre-wrap;
+    color: white;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+    background: #0c192c;
+    z-index: -1;
 }
 
 .about h1 {
-    text-align: left;
+    text-align: center;
 }
 
 .aboutPara {
-    padding-right: 3em;
-    text-align: left;
+    width: 30vw;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
 }
-
-.aboutHeader {}

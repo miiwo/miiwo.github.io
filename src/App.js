@@ -5,6 +5,7 @@ import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom'
 import { Helmet } from "react-helmet";
 
 import Sidebar from './components/sidebar';
+import Topbar from './components/topbar';
 import Projects from './pages/projects';
 import About from './pages/about';
 import StartPage from './pages/startpage';
@@ -36,7 +37,8 @@ function App() {
 	    
 	    
 	    <div className="App">
-			<Sidebar logo={userinfo.pic} title={userinfo.name} subtitle={userinfo.position} sideItems={sidebarComponents} />
+			<Topbar sideItems={sidebarComponents} />
+			{/*<Sidebar logo={userinfo.pic} title={userinfo.name} subtitle={userinfo.position} sideItems={sidebarComponents} /> */}
 			<div className="main-content">
 				<Routes>
 				<Route path="/home" element={<Home />} />

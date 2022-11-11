@@ -4,8 +4,17 @@
 
 .projects {
     padding-left: 3%;
-    white-space: pre-wrap;
     padding-right: 10%;
+    padding-top: 10vh;
+    white-space: pre-wrap;
+    color: white;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+    background: #0c192c;
+    z-index: -1;
 }
 
 .projHeader {
