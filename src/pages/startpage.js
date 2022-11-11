@@ -2,7 +2,7 @@ import Clock from '../components/clock.js'
 import Bookmark from '../components/bookmarks.js'
 import SearchBar from '../components/searchbar.js'
 import Waves from '../components/waves.js'
-import * as info from '../information.json'
+import info from '../information.json'
 import React from 'react'
 import '../stylesheets/startpage.css'
 

@@ -29,7 +29,7 @@ function SidebarCard(props) {
 function SidebarFooter(props) {
     return (
 		<div id="sidebar-footer">
-			<p><small>© Copyright © 2021</small></p>
+			<p><small>Copyright © 2021-2022</small></p>
 		</div>
     )
 }

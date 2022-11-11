@@ -1,7 +1,7 @@
 import React from 'react';
 import profilepic from './res/profilepic.jpg';
 import './App.css';
-import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 
 import Sidebar from './components/sidebar';
@@ -36,24 +36,19 @@ function App() {
 	    
 	    
 	    <div className="App">
-		<Sidebar logo={userinfo.pic} title={userinfo.name} subtitle={userinfo.position} sideItems={sidebarComponents} />
-		<Switch>
-		    <div className="main-content">
-			<PageRoute items={sidebarComponents} />
-			<Redirect exact from="/" to='/HOME' />
-		    </div>
-		</Switch>
+			<Sidebar logo={userinfo.pic} title={userinfo.name} subtitle={userinfo.position} sideItems={sidebarComponents} />
+			<div className="main-content">
+				<Routes>
+				<Route path="/home" element={<Home />} />
+					<Route path="/about" element={<About />} />
+					<Route path="/projects" element={<Projects />} />
+					<Route path="/startpage" element={<StartPage />} />
+				</Routes>
+			</div>
 	    </div>
 	</Router>
       
   );
-}
-
-function PageRoute(props) {
-        const items = props.items;
-    const routeItems = Object.entries(items).map(([key, value], i) =>
-	(value.prototype.isReactComponent) ? <Route key={i} path={"/" + key} component={value} /> : <Route key={i} path={"/" + key} render={value} />)
-    return (<>{routeItems}</>);
 }
 
 export default App;
