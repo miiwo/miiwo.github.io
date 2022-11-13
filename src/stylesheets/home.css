@@ -37,19 +37,16 @@
 }
 
 .container {
-    position: relative;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
     background: #0c192c;
 }
 .bubbles {
-    position: relative;
     display: flex;
     padding-left: 70vw;
 }
 .bubbles span {
-    position: relative;
     width: 30px;
     height: 30px;
     background: #4fc3dc;

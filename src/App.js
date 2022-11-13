@@ -1,7 +1,7 @@
 import React from 'react';
 import profilepic from './res/profilepic.jpg';
 import './App.css';
-import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 
 import Sidebar from './components/sidebar';
