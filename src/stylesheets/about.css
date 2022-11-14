@@ -21,3 +21,10 @@
     margin-top: 20px;
     text-align: center;
 }
+
+.seashellPic {
+    position: absolute;
+    left: 34vw;
+    top: 20vh;
+    opacity: 50%;
+}
