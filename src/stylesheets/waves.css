@@ -9,7 +9,7 @@
 }
 
 .wave1 {
-    animation:animate 30s linear infinite;
+    animation:waveanimate 30s linear infinite;
     z-index:1000;
     opacity:1;
     animation-delay:0s;
@@ -25,7 +25,7 @@
 }
 
 .wave3 {
-    animation:animate 30s linear infinite;
+    animation:waveanimate 30s linear infinite;
     z-index:998;
     opacity:0.2;
     animation-delay:-2s;
@@ -40,7 +40,7 @@
     bottom: 20px;
 }
 
-@keyframes animate{
+@keyframes waveanimate{
 	0%{
 		transform: translateX(0);
 	}
