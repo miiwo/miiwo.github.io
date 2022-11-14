@@ -6,6 +6,7 @@
     border-bottom: 1px solid black;
     outline: none;
     text-align: center;
+    color: #050a12;
 }
 
 .search-suggestions {
@@ -15,4 +16,5 @@
 
 #search-form {
     text-align: center;
+    margin-top: 10px;
 }

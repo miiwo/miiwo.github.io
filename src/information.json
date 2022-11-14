@@ -2,48 +2,51 @@
     "about": "Hi there, my name is Michelle Wong and this is my website! I am a recent graduate from the University of Toronto focusing in Computer Science and Mathematics. I am passionate in developing my software skills, and also helping others! My hobbies include mahjong, rhythm games, and dancing.\n\nYou can contact me at: chellewsa@gmail.com.",
     "discordbot": "This is my discord bot",
     "project_list": [
-	{
-	    "name": "React Website",
-	    "dev_cycle": "2017-2020",
-	    "link": "https:///github.com/jellyfishe/jellyfishe.github.io",
-	    "desc": "I made this website in React! This has been something I wanted to try doing for a while; ever since I created my first website years ago using purely HTML and CSS."
-	},
-	{
-	    "name": "Discord Bot",
-	    "dev_cycle": "2018-2020",
-	    "link": "https://github.com/jellyfishe/UOFTDiscordBot",
-	    "desc": "I made this bot for my school. It was used to help out with courses and shuttle bus routes."
-	},
-	{
-	    "name": "Filename Scrambler",
-	    "dev_cycle": "2019",
-	    "link": "https://github.com/jellyfishe/filescrambler",
-	    "desc": "Small little bash script I wrote to help manage my background images."
-	},
-	{
-	    "name": "DDR Scores Tracker",
-	    "dev_cycle": "2019-2020",
-	    "link": "https://github.com/jellyfishe/DDRSnapshot",
-	    "desc": "I made this sideproject for my hobby of playing DDR. I've been meaning to have a portable way of keeping track of my scores, and the sentiment goes to a bunch of others who play it. There are a couple of apps for this out already but I also wanted to have an AI function to it since the break time between songs is very short, putting in the info seems cumbersome when I fat finger the numbers. Written with a Xamarin framework, it uses AWS to analyze photos and Realm as its database."
-	},
-	{
- 	    "name": "Web App",
-	    "dev_cycle": "TBD",
-	    "link": "https://www.google.ca",
-	    "desc": "A side project I want to make in the future that lets me play around with the different web frameworks out there."
-	}
-    ],
+		{
+			"name": "Granblue API",
+		   	"dev_cycle": "2020-2022",
+		   	"link": "https://www.google.ca",
+			"priority": 1,
+		   	"desc": "An API project to provide data about the video game 'Granblue Fantasy' so that others can call it instead of having to source the data again. It also serves as a way for me to modularize data and make my own frontend to showcase data for my own community within the game."
+	   	},
+		{
+			"name": "Discord Bot",
+			"dev_cycle": "2018-2020",
+			"technology": ["Javascript"],
+			"link": "https://github.com/miiwo/UOFTDiscordBot",
+			"desc": "This Discord bot was made to make displaying course descriptions and shuttle bus times in a cleaner and accessible format to students."
+		},
+		{
+			"name": "DDR Scores Tracker",
+			"dev_cycle": "2019-2020",
+			"link": "https://github.com/miiwo/DDRSnapshot",
+			"desc": "A mobile app that tracks scores on the go when playing the commercial arcade game 'Dance Dance Revolution'. I've been meaning to have a portable way of keeping track of my scores, and the sentiment goes to a bunch of others who play it. There are a couple of apps for this out already but I also wanted to have an AI function to it since the break time between songs is very short, inputting info needs to be done fast and simple. Frontend is using Xamarin UI framework. On the backend, AWS is used to image analyze photos and Realm as an offline database."
+		},
+		{
+			"name": "Filename Scrambler",
+			"dev_cycle": "2019",
+			"link": "https://github.com/miiwo/filescrambler",
+			"desc": "Small little bash script I wrote that alpha scrambles the names of files in a folder. This was used to help manage my background image names by making them anonymous."
+		},
+		{
+			"name": "React Website",
+			"dev_cycle": "2017-2022",
+			"technology": ["React", "HTML", "CSS"],
+			"link": "https:///github.com/miiwo/miiwo.github.io",
+			"desc": "To showcase my software developer skills, I've been maintaining a personal website throughout the years. At first, it was created with only HTML and CSS. I've taken to learning React to make my websites and creating modular components for reuse in other web projects."
+		}
+		],
     "bookmark_one": {
-	"Github": "www.github.ca",
-	"HackerRank": "hackerrank.com"
+		"Github": "www.github.ca",
+		"HackerRank": "hackerrank.com"
     },
     "bookmark_two": {
-	"Twitter": "www.twitter.com",
-	"RedFlagDeals": "www.redflagdeals.ca"
+		"Twitter": "www.twitter.com",
+		"RedFlagDeals": "www.redflagdeals.ca"
     },
     "bookmark_three": {
-	"r/unixporn": "www.reddit.com/r/unixporn",
-	"r/keyboards": "www.reddit.com/r/keyboards"
+		"unix aesthetics": "www.reddit.com/r/unixporn",
+		"keyboards": "www.reddit.com/r/keyboards"
     }
     
 }

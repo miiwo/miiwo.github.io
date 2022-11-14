@@ -2,11 +2,13 @@
 
 .bookmark-link {
     display: block;
+    color: white;
 }
 
 .bookmark-link:hover {
     transition: 0.8s;
-    background-color: #0099FF;
+    background-color: #da994579;
+    color: white;
 }
 
 .bookmark-header {
@@ -14,8 +16,9 @@
     font-size: 16px;
     padding-bottom: 3px; 
     margin: 3px;
-    background: #0099FF;
+    background: #212b3b;
     color: aliceblue;
+    margin-bottom: 10px;
 }
 
 .bookmark-col {
