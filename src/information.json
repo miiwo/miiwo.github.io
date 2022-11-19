@@ -1,5 +1,5 @@
 {	
-    "about": "Hi there, my name is Michelle Wong and this is my website! I am a recent graduate from the University of Toronto focusing in Computer Science and Mathematics. I am passionate in developing my software skills, and also helping others! My hobbies include mahjong, rhythm games, and dancing.\n\nYou can contact me at: chellewsa@gmail.com.",
+    "about": "Hi there, my name is Michelle Wong and this is my website! I am a recent graduate from the University of Toronto focusing in Computer Science and Mathematics. I am passionate in developing my software skills, and also helping others! My hobbies include mahjong, rhythm games, and dancing.\n\nYou can contact me at: chellewsa@gmail.com",
     "discordbot": "This is my discord bot",
     "project_list": [
 		{
@@ -9,6 +9,13 @@
 			"priority": 1,
 		   	"desc": "An API project to provide data about the video game 'Granblue Fantasy' so that others can call it instead of having to source the data again. It also serves as a way for me to modularize data and make my own frontend to showcase data for my own community within the game."
 	   	},
+		{
+			"name": "DDR Leaderboard Web App",
+			"dev_cycle": "October 2022",
+			"link": "https://yuni-verse.xyz",
+			"priority": 2,
+			"desc": "A website that displays a leaderboard where data is stored on Google Sheets. Hosted with App Engine using Google Cloud."
+		},
 		{
 			"name": "Discord Bot",
 			"dev_cycle": "2018-2020",
@@ -33,7 +40,7 @@
 			"dev_cycle": "2017-2022",
 			"technology": ["React", "HTML", "CSS"],
 			"link": "https:///github.com/miiwo/miiwo.github.io",
-			"desc": "To showcase my software developer skills, I've been maintaining a personal website throughout the years. At first, it was created with only HTML and CSS. I've taken to learning React to make my websites and creating modular components for reuse in other web projects."
+			"desc": "To showcase my software developer skills, I've been maintaining a personal website throughout the years. At first, it was created with only HTML and CSS. I've taken to learning React to make my websites and creating modular components for reuse in other web projects. It has a link to a start page that I use to access common sites I visit as well as searching."
 		}
 		],
     "bookmark_one": {

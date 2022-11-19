@@ -14,8 +14,37 @@ ul li a {
     float: left;
     padding-top: 2vh;
     width: 25vw;
-    height: 10vh;
+
     text-decoration: none;
     color: white;
     font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+  }
+
+#topbar a.sidebar-link:after {
+    content: '';
+    position: absolute;
+    width: 25%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 10vw;
+    background-color: #d4dfff;
+    transform-origin: bottom right;
+    transition: transform 0.35s ease-out;
+}
+
+#topbar a.sidebar-link:hover {
+    text-decoration: none;
+    color: #f09b1b;
+}
+
+#topbar a.sidebar-link:hover:after {
+    transform: scaleX(.8);
+    transform-origin: bottom left;
 }
