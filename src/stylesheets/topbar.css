@@ -39,7 +39,7 @@ a {
 #topbar a.sidebar-link:after {
     content: '';
     position: absolute;
-    width: 130%;
+    width: 125%;
     transform: scaleX(0);
     height: 2px;
     bottom: 0;
@@ -58,3 +58,24 @@ a {
     transform: scaleX(.8);
     transform-origin: bottom left;
 }
+
+.navHR {
+    background: rgba(226, 153, 240, 0.452);
+    height: 0.01px;
+    margin: 0
+}
+
+/* Responsive ness */
+@media only screen and (min-width: 0px) {
+    /* For mobile: */
+    #sidebar-list {
+        background-color: rgba(63, 68, 161, 0.299);
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    #sidebar-list {
+        background-color: transparent;
+    }
+  }

@@ -12,13 +12,20 @@
 .home-jumbobox {
     position: absolute;
     padding-top: 40vh;
-    padding-left: 10vw;
     color: white;
     font-family: 'Mulish', sans-serif;
+    z-index: 2;
 }
 
 .home-jumbobox p {
     padding-top: 10px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.title-card {
+    text-align: left;
+    padding-left: 10vw;
 }
 
 .socials {
