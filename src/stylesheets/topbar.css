@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+/* Base */
 ul {
     margin: 0;
     padding: 0;
@@ -8,32 +9,41 @@ ul {
 ul li {
     list-style-type: none;
     margin: 0;
+    display: inline-block;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 ul li a {
-    float: left;
-    padding-top: 2vh;
     width: 25vw;
-
+    padding-top: 2vh;
     text-decoration: none;
-    color: white;
     font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
 a {
     text-decoration: none;
-    position: relative;
-    display: inline-block;
-  }
+}
 
+#topbar {
+    position: absolute;
+    width: 100vw;
+    z-index: 3;
+}
+
+
+/* Effects */
 #topbar a.sidebar-link:after {
     content: '';
     position: absolute;
-    width: 25%;
+    width: 130%;
     transform: scaleX(0);
     height: 2px;
     bottom: 0;
-    left: 10vw;
+    left: 0vw;
     background-color: #d4dfff;
     transform-origin: bottom right;
     transition: transform 0.35s ease-out;

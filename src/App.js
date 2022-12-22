@@ -1,10 +1,11 @@
-import React from 'react';
 import profilepic from './res/profilepic.jpg';
 import './App.css';
+
+import React from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 
-import Sidebar from './components/sidebar';
+// import Sidebar from './components/sidebar';
 import Topbar from './components/topbar';
 import Projects from './pages/projects';
 import About from './pages/about';
@@ -18,11 +19,11 @@ function App() {
 	pic: profilepic
     };
 
-    const sidebarComponents = {
-	"HOME": Home,
-	"ABOUT": About,
-	"PROJECTS": Projects,
-	"STARTPAGE": StartPage
+    const navComponents = {
+		"HOME": Home,
+		"ABOUT": About,
+		"PROJECTS": Projects,
+		"STARTPAGE": StartPage
     };
     
     return (
@@ -35,10 +36,9 @@ function App() {
 				crossorigin="anonymous" />
         </Helmet>
 	    
-	    
 	    <div className="App">
-			<Topbar sideItems={sidebarComponents} />
-			{/*<Sidebar logo={userinfo.pic} title={userinfo.name} subtitle={userinfo.position} sideItems={sidebarComponents} /> */}
+			<Topbar sideItems={navComponents} />
+			{/*<Sidebar logo={userinfo.pic} title={userinfo.name} subtitle={userinfo.position} sideItems={navComponents} /> */}
 			<div className="main-content">
 				<Routes>
 					<Route path="/home" element={<Home />} />

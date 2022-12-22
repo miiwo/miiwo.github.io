@@ -7,7 +7,6 @@
     width: 100vw;
     height: 100vh;
     background: #0c192c;
-    z-index: -1;
 }
 
 .home-jumbobox {
@@ -47,12 +46,12 @@
     padding-left: 70vw;
 }
 .bubbles span {
-    width: 30px;
-    height: 30px;
+    width: 2.5vw;
+    height: 2.5vw;
     background: #4fc3dc;
     margin: 0 4px;
     border-radius: 50%;
-    box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #4fc3dc, 0 0 100px #4fc3dc;
+    box-shadow: 0 0 0 0.8vw #4fc3dc44, 0 0 4vw #4fc3dc, 0 0 8.325vw #4fc3dc;
     animation: animate 15s linear infinite;
     animation-duration: calc(125s / var(--i));
 }

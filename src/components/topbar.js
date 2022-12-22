@@ -6,11 +6,11 @@ import '../stylesheets/topbar.css'
 function SidebarList(props) {
     const items = Object.keys(props.items);
     const sidebarItems = items.map((item, i) =>
-		<li key={i}><NavLink to={"/" + item} className="sidebar-link">{item}</NavLink></li>
+		<li key={i}><NavLink to={"/" + item} className="sidebar-link col-3">{item}</NavLink></li>
     );
 
     return (
-		<ul id="sidebar-list">{sidebarItems}</ul>
+		  <ul id="sidebar-list">{sidebarItems}</ul>
     );
 }
 
