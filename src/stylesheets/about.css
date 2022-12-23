@@ -14,17 +14,41 @@
 .about h1 {
     text-align: center;
 }
-
-.aboutPara {
-    width: 30vw;
-    margin: auto;
-    margin-top: 20px;
-    text-align: center;
+@media only screen and (min-width: 0px) {
+    /* For mobile */
+    .aboutPara {
+        margin: auto;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .seashellPic {
+        position: absolute;
+        left: 10vw;
+        top: 30.5vh;
+        opacity: 30%;
+        width: 82vw;
+        height: 60vh;
+    }
 }
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .aboutPara {
+        width: 30vw;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .seashellPic {
+        position: absolute;
+        left: 34vw;
+        top: 20vh;
+        opacity: 50%;
+        width: 600px;
+        height: 556px;
+    }
+  }
 
-.seashellPic {
-    position: absolute;
-    left: 34vw;
-    top: 20vh;
-    opacity: 50%;
-}

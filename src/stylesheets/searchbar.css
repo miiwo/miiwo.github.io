@@ -1,6 +1,6 @@
 #searchbar {
     width: 80%;
-    font-size: 3em;
+    font-size: calc(1.5vw + 1.5vh + 0.5vmin);
     background-color: transparent;
     border: none;
     border-bottom: 1px solid black;

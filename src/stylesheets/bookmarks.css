@@ -25,3 +25,10 @@
     display: table-cell;
     min-width: 15vw;
 }
+
+@media only screen and (max-width: 600px) {
+    .bookmark-col {
+        min-width: 30vw;
+    }
+}
+
