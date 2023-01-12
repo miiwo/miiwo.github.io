@@ -14,14 +14,14 @@
 			"dev_cycle": "October 2022",
 			"link": "https://yuni-verse.xyz",
 			"priority": 2,
-			"desc": "A website that displays a leaderboard where data is stored on Google Sheets. Hosted with App Engine using Google Cloud."
+			"desc": "A website that displays a leaderboard where data is stored on Google Sheets. Made in 1 week! Hosted with App Engine using Google Cloud."
 		},
 		{
 			"name": "Discord Bot",
 			"dev_cycle": "2018-2020",
 			"technology": ["Javascript"],
 			"link": "https://github.com/miiwo/UOFTDiscordBot",
-			"desc": "This Discord bot was made to make displaying course descriptions and shuttle bus times in a cleaner and accessible format to students."
+			"desc": "This Discord bot was made to make displaying course descriptions and shuttle bus times in a cleaner and accessible format to students. It used Cobalt API, an API made by other UoFT students to fetch the data."
 		},
 		{
 			"name": "DDR Scores Tracker",
@@ -33,14 +33,14 @@
 			"name": "Filename Scrambler",
 			"dev_cycle": "2019",
 			"link": "https://github.com/miiwo/filescrambler",
-			"desc": "Small little bash script I wrote that alpha scrambles the names of files in a folder. This was used to help manage my background image names by making them anonymous."
+			"desc": "Small little bash script I wrote that alphanumerically scrambles the names of files in a folder. This was used to help manage my background image names by making them anonymous."
 		},
 		{
-			"name": "React Website",
+			"name": "Personal Website",
 			"dev_cycle": "2017-2022",
 			"technology": ["React", "HTML", "CSS"],
 			"link": "https:///github.com/miiwo/miiwo.github.io",
-			"desc": "To showcase my software developer skills, I've been maintaining a personal website throughout the years. At first, it was created with only HTML and CSS. I've taken to learning React to make my websites and creating modular components for reuse in other web projects. It has a link to a start page that I use to access common sites I visit as well as searching."
+			"desc": "This site your reading right now! I've been maintaining this personal website throughout the years. At first, it was created with only HTML and CSS. It's evolved to use React as a front-end framework to maintain modular components for reuse in other web projects and/or extensions to this website. This website also contains a link to a start page that I use on a daily basis."
 		}
 		],
     "bookmark_one": {

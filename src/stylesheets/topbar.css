@@ -36,6 +36,7 @@ a {
 
 
 /* Effects */
+@media only screen and (min-width: 768px) {
 #topbar a.sidebar-link:after {
     content: '';
     position: absolute;
@@ -57,6 +58,7 @@ a {
 #topbar a.sidebar-link:hover:after {
     transform: scaleX(.8);
     transform-origin: bottom left;
+}
 }
 
 .navHR {
