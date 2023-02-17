@@ -1,5 +1,5 @@
 import React from 'react'
-import '../stylesheets/searchbar.css'
+import './searchbar.module.css'
 
 const search_url = 'https://duckduckgo.com/?q=';
 

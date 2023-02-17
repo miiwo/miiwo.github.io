@@ -1,10 +1,10 @@
-import Clock from '../components/clock.js'
-import Bookmark from '../components/bookmarks.js'
-import SearchBar from '../components/searchbar.js'
-import Waves from '../components/waves.js'
-import info from '../information.json'
+import Clock from '../src/components/clock.js'
+import Bookmark from '../src/components/bookmarks.js'
+import SearchBar from '../src/components/searchbar.js'
+import Waves from '../src/components/waves.js'
+import info from '../src/information.json'
 import React from 'react'
-import '../stylesheets/startpage.css'
+
 
 function StartPage(props) {
     return (

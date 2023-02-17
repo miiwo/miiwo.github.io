@@ -3,7 +3,7 @@
     bottom: 0;
     width: 100vw;
     height: 100px;
-    background: url('../res/wave.svg');
+    background: url('../../public/res/wave.svg');
     background-size:990px 100px;
     background-repeat: repeat-x;
 }

@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 /* Base */
-ul {
+ul #sidebar-list {
     margin: 0;
     padding: 0;
 }
 
-ul li {
+ul li #sidebar-list {
     list-style-type: none;
     margin: 0;
     display: inline-block;
@@ -16,7 +16,7 @@ ul li {
     padding-right: 100px;
 }
 
-ul li a {
+ul li a #sidebar-list {
     width: 25vw;
     padding-top: 2vh;
     text-decoration: none;
@@ -24,7 +24,7 @@ ul li a {
     color: white;
 }
 
-a {
+a #sidebar-list {
     text-decoration: none;
 }
 

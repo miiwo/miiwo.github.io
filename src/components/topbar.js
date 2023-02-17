@@ -1,6 +1,6 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
-import '../stylesheets/topbar.css'
+import Link from 'next/link';
+import './topbar.module.css'
 import useWindowDimensions from './windowDimensions';
 
 
@@ -12,7 +12,7 @@ function SidebarList(props) {
     const sidebarItems = items.map((item, i) =>
     <>
     	<li key={i}>
-        <NavLink to={"/" + item} className="sidebar-link col-3">{item}</NavLink>
+        <Link href={"/" + item} className="sidebar-link col-3">{item}</Link>
       </li>
       { width < mobileWidth && <hr className='navHR' /> }
     </>

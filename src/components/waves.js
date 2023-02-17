@@ -1,5 +1,5 @@
 import React from 'react'
-import '../stylesheets/waves.css'
+import './waves.module.css'
 
 function Waves(prop) {
     return (

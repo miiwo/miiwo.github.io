@@ -1,7 +1,6 @@
 import React from 'react'
-import info from '../information.json'
-import '../stylesheets/about.css'
-import seashell from '../res/seashell__30959.png'
+import info from '../src/information.json'
+import seashell from '../public/res/seashell__30959.png'
 
 
 function About(props) {

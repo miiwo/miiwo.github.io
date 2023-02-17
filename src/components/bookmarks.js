@@ -1,6 +1,5 @@
 import React from 'react'
-import '../stylesheets/bookmarks.css'
-//props.items: dict(key="DisplayName", value="website-link")
+import './bookmarks.module.css'
 
 function Bookmark(props) {
     const items = Object.entries(props.items);

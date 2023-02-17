@@ -1,12 +1,13 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import Link from 'next/link';
 //import '../stylesheets/sidebar.css'
+
 
 
 function SidebarList(props) {
     const items = Object.keys(props.items);
     const sidebarItems = items.map((item, i) =>
-		<li key={i}><NavLink to={"/" + item} className="sidebar-link">{item}</NavLink></li>
+		<li key={i}><Link href={"/" + item} className="sidebar-link">{item}</Link></li>
     );
 
     return (

@@ -1,6 +1,5 @@
 import React from 'react'
-import info from '../information.json'
-import '../stylesheets/projects.css'
+import info from '../src/information.json'
 
 function ProjectHeader(props) {
     return (
