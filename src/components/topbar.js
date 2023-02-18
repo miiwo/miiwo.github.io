@@ -11,8 +11,8 @@ function SidebarList(props) {
 
     const sidebarItems = items.map((item, i) =>
     <>
-    	<li key={i}>
-        <Link href={"/" + item} className="sidebar-link col-3">{item}</Link>
+    	<li key={item}>
+        <Link href={item === "HOME" ? "/" : "/" + item.toLowerCase()} className="sidebar-link col-3">{item}</Link>
       </li>
       { width < mobileWidth && <hr className='navHR' /> }
     </>

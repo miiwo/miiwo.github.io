@@ -1,5 +1,3 @@
-import profilepic from '../public/res/profilepic.jpg';
-
 import React from 'react';
 import { Helmet } from "react-helmet";
 
@@ -10,12 +8,6 @@ import StartPage from '../pages/startpage';
 import Home from '../pages/home';
 
 function App() {
-    const userinfo = {
-	name: 'Michelle Wong',
-	position: 'Software Developer',
-	pic: profilepic
-    };
-
     const navComponents = {
 		"HOME": Home,
 		"ABOUT": About,
