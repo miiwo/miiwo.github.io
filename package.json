@@ -37,5 +37,9 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/miiwo/miiwo.github.io.git",
+  "author": "miiwo <chellewsa@gmail.com>",
+  "license": "MIT"
 }
