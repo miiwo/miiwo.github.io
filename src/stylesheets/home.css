@@ -12,6 +12,7 @@
 
 .home-jumbobox {
     position: absolute;
+    text-align: center;
     padding-top: 40vh;
     color: white;
     font-family: 'Mulish', sans-serif;
@@ -30,7 +31,6 @@
 }
 
 .socials {
-    padding-left: 42%;
     font-size: 2rem;
 }
 

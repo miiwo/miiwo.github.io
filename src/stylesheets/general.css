@@ -4,6 +4,7 @@
     position: absolute;
     width: 100vw;
     z-index: 3;
+    text-align: center;
 }
 
 ul#sidebar-list {

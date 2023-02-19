@@ -9,13 +9,13 @@ function SidebarList(props) {
     const { height, width } = useWindowDimensions()
     const mobileWidth = 365
 
-    const sidebarItems = items.map((item, i) =>
-      <>
-        <li key={i}>
+    const sidebarItems = items.map((item) =>
+      <React.Fragment key={item}>
+        <li>
           <Link href={item === "HOME" ? "/" : "/" + item.toLowerCase()} className={[styles.sidebarLink, "col-3"].join(" ")}>{item}</Link>
         </li>
         { width < mobileWidth && <hr className={styles.navHR} /> }
-      </>
+      </React.Fragment>
     );
 
     return (
