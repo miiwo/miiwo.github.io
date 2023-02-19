@@ -1,10 +1,10 @@
 //import '../src/stylesheets/index.css'
-//import '../src/stylesheets/projects.css'
-//import '../src/stylesheets/startpage.css'
 import '../src/stylesheets/mycustomcss.css'
 import '../src/stylesheets/general.css'
 import '../src/stylesheets/home.css'
 import '../src/stylesheets/about.css'
+import '../src/stylesheets/projects.css'
+import '../src/stylesheets/startpage.css'
 
 import { Helmet } from "react-helmet";
 import Layout from '../src/components/layout';

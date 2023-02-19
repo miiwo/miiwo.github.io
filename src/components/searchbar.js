@@ -1,11 +1,11 @@
 import React from 'react'
-import './searchbar.module.css'
+import styles from './searchbar.module.css'
 
 const search_url = 'https://duckduckgo.com/?q=';
 
 function SearchSuggestionBox(props) {
     const suggestionList = props.suggestions.length >= 3 ? props.suggestions.slice(0, 3).map((s, i) => 
-																<li key={i} className="search-suggestions">
+																<li key={i} className={styles.searchSuggestions}>
 																	<a href={search_url+s}>{s}</a>
 																</li>) 
 														: [];
@@ -46,8 +46,8 @@ class SearchBar extends React.Component {
     render() {
 		return (
 	    	<>
-				<form autoComplete="off" spellCheck="false" action="https://www.duckduckgo.com/" method="get" target="_blank" id="search-form">
-					<input name="q" type="text" value={this.state.value} onChange={this.handleChange} id="searchbar" placeholder="Type here to search for something." />
+				<form autoComplete="off" spellCheck="false" action="https://www.duckduckgo.com/" method="get" target="_blank" id={styles.searchForm}>
+					<input name="q" type="text" value={this.state.value} onChange={this.handleChange} id={styles.searchbar} placeholder="Type here to search for something." />
 					<SearchSuggestionBox suggestions={this.state.suggestions} />
 				</form>
 	    	</>

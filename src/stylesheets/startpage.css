@@ -1,17 +1,15 @@
 .startpage {
-    width: 100vw;
-    height: 100vh;
-    padding-top: 28vh;
-    /*background: #1A1E23;*/
-    color: white;
     position: absolute;
     top: 0%;
     left: 0%;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 28vh;
+    color: white;
     background: #0c192c;
-    z-index: -1;
 }
 
-.startpage-table {
+.startpageTable {
     display: table;
     margin: 0 auto;
     table-layout: fixed;

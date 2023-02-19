@@ -1,15 +1,15 @@
 import React from 'react'
-import './bookmarks.module.css'
+import styles from './bookmarks.module.css'
 
 function Bookmark(props) {
     const items = Object.entries(props.items);
     const bkmk = items.map(([key, value], i) => 
-        <a key={i} className="bookmark-link" href={"http://"+value}><p>{key}</p></a>
+        <a key={"bkmk" + i} className={styles.bookmarkLink} href={"http://"+value}><p className={styles.bookmarkLink} >{key}</p></a>
     )
 
     return (
-	<div className="bookmark-col">
-	    <p className="bookmark-header">{props.header}</p>
+	<div className={styles.bookmarkCol}>
+	    <p className={styles.bookmarkHeader}>{props.header}</p>
 	    {bkmk}
 	</div>
     )

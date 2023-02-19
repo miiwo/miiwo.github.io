@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
 
-.bookmark-link {
+.bookmarkLink {
     display: block;
     color: white;
+    text-align: center;
 }
 
-.bookmark-link:hover {
+.bookmarkLink:hover {
     transition: 0.8s;
     background-color: #da994579;
     color: white;
+    text-decoration: none;
 }
 
-.bookmark-header {
+.bookmarkHeader {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     padding-bottom: 3px; 
@@ -19,15 +21,16 @@
     background: #212b3b;
     color: aliceblue;
     margin-bottom: 10px;
+    text-align: center;
 }
 
-.bookmark-col {
+.bookmarkCol {
     display: table-cell;
     min-width: 15vw;
 }
 
 @media only screen and (max-width: 600px) {
-    .bookmark-col {
+    .bookmarkCol {
         min-width: 30vw;
     }
 }

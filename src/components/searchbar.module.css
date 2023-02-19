@@ -9,12 +9,12 @@
     color: #050a12;
 }
 
-.search-suggestions {
+.searchSuggestions {
     display: inline-block;
     margin: 20px 100px;
 }
 
-#search-form {
+#searchForm {
     text-align: center;
     margin-top: 10px;
 }

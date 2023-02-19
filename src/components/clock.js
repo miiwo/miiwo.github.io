@@ -1,5 +1,5 @@
 import React from 'react'
-import './clock.module.css'
+import styles from './clock.module.css'
 
 class Clock extends React.Component {
     constructor(props) {
@@ -25,7 +25,7 @@ class Clock extends React.Component {
 
     render() {
 		return (
-	    	<div id="center_clock"><time id="clock">{this.state.hours}:{this.state.minutes}</time></div>
+	    	<div className={styles.center}><time className={styles.clock}>{this.state.hours}:{this.state.minutes}</time></div>
 		)
     }
 
