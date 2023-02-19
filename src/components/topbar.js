@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
-import './topbar.module.css'
+import styles from './topbar.module.css'
 import useWindowDimensions from './windowDimensions';
 
 
@@ -10,12 +10,12 @@ function SidebarList(props) {
     const mobileWidth = 365
 
     const sidebarItems = items.map((item, i) =>
-    <>
-    	<li key={item}>
-        <Link href={item === "HOME" ? "/" : "/" + item.toLowerCase()} className="sidebar-link col-3">{item}</Link>
-      </li>
-      { width < mobileWidth && <hr className='navHR' /> }
-    </>
+      <>
+        <li key={i}>
+          <Link href={item === "HOME" ? "/" : "/" + item.toLowerCase()} className={[styles.sidebarLink, "col-3"].join(" ")}>{item}</Link>
+        </li>
+        { width < mobileWidth && <hr className={styles.navHR} /> }
+      </>
     );
 
     return (
@@ -26,9 +26,9 @@ function SidebarList(props) {
 
 function Topbar(props) {
     return (
-		<aside id="topbar">
-			<SidebarList items={props.sideItems} />
-		</aside>
+      <aside id="topbar">
+        <SidebarList items={props.sideItems} />
+      </aside>
     )
 }
 

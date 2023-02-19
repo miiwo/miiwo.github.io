@@ -1,0 +1,23 @@
+
+/* Top bar related CSS */
+#topbar {
+    position: absolute;
+    width: 100vw;
+    z-index: 3;
+}
+
+ul#sidebar-list {
+    margin: 0;
+    padding: 0;
+    z-index: 3000;
+}
+
+ul#sidebar-list li {
+    list-style-type: none;
+    margin: 0;
+    display: inline-block;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 100px;
+    padding-right: 100px;
+}
