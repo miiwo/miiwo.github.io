@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+#topbar {
+    position: absolute;
+    width: 100vw;
+    z-index: 3;
+    text-align: center;
+}
+
+#sidebarList {
+    margin: 0;
+    padding: 0;
+    z-index: 3000;
+}
+
 .sidebarLink {
     width: 25vw;
     padding-top: 2vh;
@@ -43,14 +56,14 @@
 /* Responsive ness */
 @media only screen and (min-width: 0px) {
     /* For mobile: */
-    #sidebar-list {
+    #sidebarList {
         background-color: rgba(63, 68, 161, 0.299);
     }
   }
 
   @media only screen and (min-width: 768px) {
     /* For desktop: */
-    #sidebar-list {
+    #sidebarList {
         background-color: transparent;
     }
   }

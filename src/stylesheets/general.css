@@ -1,19 +1,17 @@
-
-/* Top bar related CSS */
-#topbar {
-    position: absolute;
+body {
+    background: #0c192c;
     width: 100vw;
-    z-index: 3;
-    text-align: center;
+    height: 100vh;
+    display: block;
 }
-
-ul#sidebar-list {
+/* Top bar related CSS */
+#sidebarList {
     margin: 0;
     padding: 0;
     z-index: 3000;
 }
 
-ul#sidebar-list li {
+#sidebarList li {
     list-style-type: none;
     margin: 0;
     display: inline-block;

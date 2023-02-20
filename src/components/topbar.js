@@ -19,14 +19,14 @@ function SidebarList(props) {
     );
 
     return (
-		  <ul id="sidebar-list">{sidebarItems}</ul>
+		  <ul id="sidebarList">{sidebarItems}</ul>
     );
 }
 
 
 function Topbar(props) {
     return (
-      <aside id="topbar">
+      <aside id={styles.topbar}>
         <SidebarList items={props.sideItems} />
       </aside>
     )

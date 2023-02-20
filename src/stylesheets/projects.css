@@ -1,25 +1,29 @@
-.entry {
-    text-align: left;
-    margin-bottom: 5vh;
-}
-
 .projects {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 10vh;
     padding-left: 3%;
     padding-right: 10%;
     white-space: pre-wrap;
     color: white;
-    position: absolute;
-    top: 10vh;
-    left: 0;
-    width: 100vw;
-    height: 85vh;
     background: #0c192c;
-    z-index: -1;
+}
+
+.projects-centered {
     overflow-y: auto;
+    height:75vh;
 }
 
 .projHeader {
     text-align: left;
+}
+
+.entry {
+    text-align: left;
+    margin-bottom: 5vh;
 }
 
 @media only screen and (max-width: 600px) {
