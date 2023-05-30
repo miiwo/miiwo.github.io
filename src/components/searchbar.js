@@ -32,8 +32,7 @@ class SearchBar extends React.Component {
 	    	return;
 		}
 	
-		const proxyurl = "https://cors-anywhere.herokuapp.com/";
-		fetch(proxyurl + 'https://duckduckgo.com/ac/?q=' + event.target.value)
+		fetch('https://duckduckgo.com/ac/?q=' + event.target.value)
 	    	.then(res => res.ok ? res.json() : console.log('Something went wrong with trying to search from DuckDuckGo.'))
 	    	.then(data => {
 				console.log(data.map(d => d["phrase"]));
