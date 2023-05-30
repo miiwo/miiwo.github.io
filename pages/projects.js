@@ -17,8 +17,9 @@ function ProjectList(props) {
 			<div className="inner-entry">
 			<div id="icon"><i></i></div>
 			<h2 className="proj-title">
-				<a href={item.link}>{item.name}</a> <span>{item.dev_cycle}</span>
+				<a href={item.link}>{item.name}</a> {/*<span>{item.dev_cycle}</span> */}
 			</h2>
+			<h4>Technologies used: </h4>
 			<p className="desc">{item.desc}</p>
 			</div>
 		</article>

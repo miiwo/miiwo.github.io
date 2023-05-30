@@ -15,10 +15,19 @@
 .projects-centered {
     overflow-y: auto;
     height:75vh;
+    /* IE, Edge, Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Chrome, Safari, Opera */
+.projects-centered::-webkit-scrollbar {
+    display: none;
 }
 
 .projHeader {
     text-align: left;
+    margin-bottom: 2vh;
 }
 
 .entry {
