@@ -5,10 +5,10 @@ function Waves(prop) {
     return (
 	<>
 	    <div className="wave-container">
-			<div className="wave wave1" />
-			<div className="wave wave2" />
-			<div className="wave wave3" />
-			<div className="wave wave4" />
+			<div className={ `${styles.wave} ${styles.wave1}`} />
+			<div className={ `${styles.wave} ${styles.wave2}`} />
+			<div className={ `${styles.wave} ${styles.wave3}`} />
+			<div className={ `${styles.wave} ${styles.wave4}`} />
 	    </div>
 	</>
     )
