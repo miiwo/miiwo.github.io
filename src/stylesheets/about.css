@@ -33,8 +33,27 @@
         height: 60vh;
     }
 }
+
 @media only screen and (min-width: 768px) {
-    /* For laptop: */
+    /* For IPAD */
+    .aboutPara {
+        width: 50vw;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .seashellPic {
+        position: absolute;
+        left: 13vw;
+        top: 25vh;
+        opacity: 50%;
+        width: 600px;
+        height: 556px;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
     .aboutPara {
         width: 34vw;
         margin: auto;
