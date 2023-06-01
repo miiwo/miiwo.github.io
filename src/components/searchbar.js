@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './searchbar.module.css'
+import Script from 'next/script'
 
 const search_url = 'https://duckduckgo.com/?q=';
 
@@ -16,6 +17,27 @@ function SearchSuggestionBox(props) {
     )
 }
 
+function fetchDuckDuckGoSuggestions(query) {
+	return new Promise((resolve) => {
+		window.autocompleteCallback = (res) => {
+			const suggs = []
+
+			for (const item of res) {
+				if (item.phrase === query.toLowerCase()) continue
+				suggs.push(item.phrase)
+			}
+
+			resolve(suggs)
+		}
+
+		let script = document.createElement('script')
+		document.querySelector('head').appendChild(script)
+		script.src = `https://duckduckgo.com/ac/?callback=autocompleteCallback&q=${query}`
+		script.onload = script.remove
+
+	})
+}
+
 class SearchBar extends React.Component {
     constructor(props) {
 		super(props);
@@ -24,22 +46,16 @@ class SearchBar extends React.Component {
 		
     }
 
-    handleChange(event) {
+    async handleChange(event) {
 		this.setState({ value: event.target.value });
 		// Show no suggestions if empty
 		if (event.target.value === '') {
 	    	this.setState({ suggestions: [] });
 	    	return;
 		}
-	
-		fetch('https://duckduckgo.com/ac/?q=' + event.target.value)
-	    	.then(res => res.ok ? res.json() : console.log('Something went wrong with trying to search from DuckDuckGo.'))
-	    	.then(data => {
-				console.log(data.map(d => d["phrase"]));
-				this.setState({ suggestions: data.map(d => d["phrase"]) })
-	    	})
-	    	.catch(error => console.log(error));
-	
+
+		const res = await fetchDuckDuckGoSuggestions(event.target.value)
+		this.setState({ suggestions: res })
     }
     
     render() {
