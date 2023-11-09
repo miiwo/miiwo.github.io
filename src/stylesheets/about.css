@@ -90,3 +90,13 @@
     }
   }
 
+  @media only screen and (min-width: 2500px) {
+    .seashellPic {
+        position: absolute;
+        left: 36.9vw;
+        top: 22vh;
+        width: 660px;
+        height: 616px;
+    }
+  }
+
