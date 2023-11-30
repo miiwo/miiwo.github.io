@@ -4,6 +4,7 @@
 		{
 			"name": "Granblue API",
 		   	"dev_cycle": "2023",
+			"technology": ["Next"],
 		   	"link": "https://github.com/miiwo/granblue_api",
 			"priority": 1,
 		   	"desc": "An API that provides equipment and character data about the mobile video game 'Granblue Fantasy'. There are many different frontend applications that continuously re-source the data for their own ends. What this project aims to solve is free and accessible data to create more third-party tools. It also serves as a way for me to modularize data and make my own frontend to showcase data for my own community within the game."
